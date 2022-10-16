@@ -1,0 +1,10 @@
+.carousel-item {
+    height:60vh;
+    position: relative;
+
+}
+.carousel-item img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+}
