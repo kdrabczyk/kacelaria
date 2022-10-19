@@ -68,8 +68,19 @@
     font-size: 1.5rem;
 }
 
-@media only screen and(max-width:605px){
-    #brand-right-top h1{
-        font-size: 1rem;
+@media only screen and (max-width: 605px) {
+    #brand-right-top, #brand-right-bottom {
+            color: black;
+            font-size: 10px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+}
+
+@media only screen and (max-width: 992px) {
+    #cywilne .container div, #gospodarcze .container div, #zamowien .container div{
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
